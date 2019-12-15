@@ -1,0 +1,5 @@
+OrganizationIdentifier,OrganizationFormalName,OrganizationDescriptionText,OrganizationType,ElectronicAddress,Telephonic,OrganizationAddress/AddressTypeName_1,OrganizationAddress/AddressText_1,OrganizationAddress/SupplementalAddressText_1,OrganizationAddress/LocalityName_1,OrganizationAddress/StateCode_1,OrganizationAddress/PostalCode_1,OrganizationAddress/CountryCode_1,OrganizationAddress/CountyCode_1,ProviderName
+USGS-PA,"USGS Pennsylvania Water Science Center",,,,,,,,,,,,,NWIS
+21PA_WQX,"PA DEPARTMENT OF ENVIRONMENTAL PROTECTION","PA ENVIRONMENTAL PROTECTION","*State Government US","mpulket@pa.gov (Email)","717-783-2949 (Office)",Location,"PA DEPARTMENT OF ENVIRONMENTAL PROTECTION","400 Market Street",Harrisburg,PA,17101,US,043,STORET
+31ORWUNT_WQX,"Ohio River Valley Water Sanitation Commission (ORSANCO)","Water Quality Monitoring Data","State/US Government",,,,,,,,,,,STORET
+IWLA,"Izaak Walton League of America","Izaak Walton League - national conservation organization","Private Industry",,,,,,,,,,,STORET

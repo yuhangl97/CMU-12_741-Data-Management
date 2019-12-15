@@ -1,0 +1,25 @@
+/*
+-- Query: SELECT st.MonitoringLocationName, ac.ActivityStartDate, br.CharacteristicName, br.ResultMeasureValue, br.`ResultMeasure/MeasureUnitCode`
+FROM  `12_741_Project`.`activityall` as ac INNER JOIN `12_741_Project`.`biologicalresult` as br 
+ON br.ActivityIdentifier = ac.ActivityIdentifier
+LEFT JOIN `12_741_Project`.`station12` as st    
+ON ac.MonitoringLocationIdentifier = st.MonitoringLocationIdentifier
+WHERE br.CharacteristicName = 'pH' and (br.ResultMeasureValue > 8.5 or br.ResultMeasureValue < 6)
+LIMIT 0, 1000
+
+-- Date: 2019-12-07 22:57
+*/
+INSERT INTO `` (`MonitoringLocationName`,`ActivityStartDate`,`CharacteristicName`,`ResultMeasureValue`,`ResultMeasure/MeasureUnitCode`) VALUES ('Allegheny River at 9th St Bridge at Pittsburgh, PA','2009-06-18','pH',8.6,'std units');
+INSERT INTO `` (`MonitoringLocationName`,`ActivityStartDate`,`CharacteristicName`,`ResultMeasureValue`,`ResultMeasure/MeasureUnitCode`) VALUES ('Youghiogheny River at Sutersville, PA','2010-10-12','pH',8.6,'std units');
+INSERT INTO `` (`MonitoringLocationName`,`ActivityStartDate`,`CharacteristicName`,`ResultMeasureValue`,`ResultMeasure/MeasureUnitCode`) VALUES ('Youghiogheny River at Sutersville, PA','2010-10-12','pH',8.6,'std units');
+INSERT INTO `` (`MonitoringLocationName`,`ActivityStartDate`,`CharacteristicName`,`ResultMeasureValue`,`ResultMeasure/MeasureUnitCode`) VALUES ('Youghiogheny River at Sutersville, PA','2010-10-12','pH',8.6,'std units');
+INSERT INTO `` (`MonitoringLocationName`,`ActivityStartDate`,`CharacteristicName`,`ResultMeasureValue`,`ResultMeasure/MeasureUnitCode`) VALUES ('Youghiogheny River at Sutersville, PA','2010-10-12','pH',8.6,'std units');
+INSERT INTO `` (`MonitoringLocationName`,`ActivityStartDate`,`CharacteristicName`,`ResultMeasureValue`,`ResultMeasure/MeasureUnitCode`) VALUES ('Youghiogheny River at Sutersville, PA','2010-10-12','pH',8.6,'std units');
+INSERT INTO `` (`MonitoringLocationName`,`ActivityStartDate`,`CharacteristicName`,`ResultMeasureValue`,`ResultMeasure/MeasureUnitCode`) VALUES ('Youghiogheny River at Sutersville, PA','2010-10-12','pH',8.6,'std units');
+INSERT INTO `` (`MonitoringLocationName`,`ActivityStartDate`,`CharacteristicName`,`ResultMeasureValue`,`ResultMeasure/MeasureUnitCode`) VALUES ('Youghiogheny River at Sutersville, PA','2010-10-12','pH',8.6,'std units');
+INSERT INTO `` (`MonitoringLocationName`,`ActivityStartDate`,`CharacteristicName`,`ResultMeasureValue`,`ResultMeasure/MeasureUnitCode`) VALUES (NULL,'2009-07-07','pH',8.8,'std units');
+INSERT INTO `` (`MonitoringLocationName`,`ActivityStartDate`,`CharacteristicName`,`ResultMeasureValue`,`ResultMeasure/MeasureUnitCode`) VALUES (NULL,'2009-07-07','pH',8.9,'std units');
+INSERT INTO `` (`MonitoringLocationName`,`ActivityStartDate`,`CharacteristicName`,`ResultMeasureValue`,`ResultMeasure/MeasureUnitCode`) VALUES (NULL,'2009-07-07','pH',8.9,'std units');
+INSERT INTO `` (`MonitoringLocationName`,`ActivityStartDate`,`CharacteristicName`,`ResultMeasureValue`,`ResultMeasure/MeasureUnitCode`) VALUES (NULL,'2009-08-26','pH',8.6,'std units');
+INSERT INTO `` (`MonitoringLocationName`,`ActivityStartDate`,`CharacteristicName`,`ResultMeasureValue`,`ResultMeasure/MeasureUnitCode`) VALUES ('Turtle Creek at Wilmerding, PA','2009-08-26','pH',9.1,'std units');
+INSERT INTO `` (`MonitoringLocationName`,`ActivityStartDate`,`CharacteristicName`,`ResultMeasureValue`,`ResultMeasure/MeasureUnitCode`) VALUES ('Thompson Run at Turtle Creek, PA','2009-08-26','pH',8.7,'std units');
